@@ -1,7 +1,7 @@
 .body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.25fr 8fr 1fr;
+    grid-template-rows: 5fr 32fr 4fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 100vw;
@@ -18,14 +18,14 @@
     padding: 0 2rem;
 }
 
-.header>a {
+.header > a {
     color: var(--text);
     font-size: 2.5em;
     text-decoration: none;
     transition-duration: 0.5s;
 }
 
-.header>a:hover {
+.header > a:hover {
     color: var(--accent);
     scale: 1.25;
 }
@@ -55,11 +55,11 @@
     border-color: var(--accent);
 }
 
-.linkContainer:hover>a {
+.linkContainer:hover > a {
     color: var(--accent);
 }
 
-.linkContainer>a {
+.linkContainer > a {
     font-size: 1.25em;
     text-decoration: none;
     color: var(--text);
@@ -72,9 +72,9 @@
 }
 
 .footer {
+    grid-area: 3 / 1 / 4 / 2;
     display: flex;
     flex-direction: row;
-    grid-area: 3 / 1 / 4 / 2;
     align-items: center;
     justify-content: flex-end;
     background-color: var(--background);
