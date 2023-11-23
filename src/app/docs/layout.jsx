@@ -17,7 +17,7 @@ export default function DocsLayout({ children }) {
       <nav className={`${styles.docsHeader} ${grid.docsHeader}`}>
         <DocNavBarElements />
       </nav>
-      <div className={`${styles.docsBody} ${grid.content}`}>
+      <div className={`${styles.docsBody} ${grid.docsContent}`}>
         {children}
       </div>
     </>

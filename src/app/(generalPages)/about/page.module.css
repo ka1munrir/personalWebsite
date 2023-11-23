@@ -1,0 +1,36 @@
+.titles { 
+    color: var(--text);
+}
+
+.skillCardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+}
+
+.skillCard {
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 20px 25px -5px, rgba(255, 255, 255, 0.04) 0px 10px 10px -5px;
+    transition-duration: .5s;
+}
+.skillCard:hover {
+    scale: 1.1;
+}
+
+.skillTitle {
+    color: var(--text);
+}
+
+.skillSVG {
+
+}

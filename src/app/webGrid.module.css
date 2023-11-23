@@ -15,6 +15,10 @@
 }
 
 .content {
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+.docsContent {
     grid-area: 2 / 2 / 3 / 4;
 }
 
