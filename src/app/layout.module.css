@@ -79,10 +79,17 @@
     align-items: center;
     justify-content: flex-end;
     background-color: var(--background);
-    padding: 0em 0.5em;
+    padding: 0em 2em;
 }
 
 .svg {
     fill: var(--text);
-    padding: 1em 0.5em;
+    margin: 0em 0em 0em 1em;
+    transition-duration: .5s;
+}
+
+.svg:hover { 
+    cursor: pointer;
+    scale: 1.2;
+    fill: var(--accent);
 }
