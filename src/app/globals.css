@@ -10,3 +10,17 @@
   --accent: #675ca3;
   font-family: 'Play', sans-serif;
 }
+
+::-webkit-scrollbar{
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: .4em;
+  box-shadow: rgb(51, 36, 23) 3px 3px 6px 0px inset, rgba(51, 36, 23, 0.5) -3px -3px 6px 1px inset;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(218,165,32, 0.3);
+  border-radius: .4em;
+}
