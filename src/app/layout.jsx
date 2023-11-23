@@ -3,7 +3,6 @@ import Link from 'next/link'
 import styles from './layout.module.css'
 import './globals.css'
 import grid from './webGrid.module.css'
-import FooterSVGS from './FooterSVGS'
 
 const inter = Inter({ subsets: ['latin'] })
 
