@@ -25,6 +25,7 @@
 }
 .skillCard:hover {
     scale: 1.1;
+    background-color: var(--secondary);
 }
 
 .skillTitle {

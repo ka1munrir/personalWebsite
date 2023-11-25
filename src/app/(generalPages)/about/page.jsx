@@ -25,6 +25,7 @@ export default function About() {
     ['React.js', reactIcon],
     ['Vite.js', viteIcon],
     ['Next.js', nextjsIcon],
+    ['React Native', reactIcon],
     ['SQL', sqlIcon],
     ['SQLAlchemy', sqlalchemyIcon],
     ['Flask', flaskIcon],
