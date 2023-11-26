@@ -14,6 +14,9 @@ import sqlIcon from './skill_icons/sql.svg'
 import sqlalchemyIcon from './skill_icons/SQLAlchemy.svg'
 import tailwindIcon from './skill_icons/tailwind.svg'
 import viteIcon from './skill_icons/vite.svg'
+import gitIcon from './skill_icons/git.svg'
+import jsonIcon from './skill_icons/json.svg'
+import cIcon from './skill_icons/c.svg'
 
 
 export default function About() {
@@ -27,10 +30,13 @@ export default function About() {
     ['Next.js', nextjsIcon],
     ['React Native', reactIcon],
     ['SQL', sqlIcon],
+    ['JSON', jsonIcon],
     ['SQLAlchemy', sqlalchemyIcon],
     ['Flask', flaskIcon],
     ['Python', pythonIcon],
     ['Java', javaIcon],
+    ['C', cIcon],
+    ['Git', gitIcon]
 
   ]
   return (
