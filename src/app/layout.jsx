@@ -19,13 +19,10 @@ export default function RootLayout({ children }) {
           <Link href={'/'}>Juan</Link>
           <nav className={styles.nav}>
             <div className={styles.linkContainer}>
-              <Link href={'/about'}>About</Link>
+              <Link href={'/skills'}>Skills</Link>
             </div>
             <div className={styles.linkContainer} >
               <Link href={'/projects'}>Projects</Link>
-            </div>
-            <div className={styles.linkContainer}>
-              <Link href={'/docs'}>Docs</Link>
             </div>
             <div className={styles.linkContainer}>
               <Link href={'/contact'}>Contact</Link>

@@ -17,34 +17,52 @@ import viteIcon from './skill_icons/vite.svg'
 import gitIcon from './skill_icons/git.svg'
 import jsonIcon from './skill_icons/json.svg'
 import cIcon from './skill_icons/c.svg'
+import cppIcon from './skill_icons/cpp.svg'
 
 
 export default function About() {
-  const skills = [
+  const skillsKnown = [
+    ['Python', pythonIcon],
+    ['JavaScript', javascriptIcon],
     ['HTML', html5Icon],
     ['CSS', cssIcon],
+    ['SQL', sqlIcon],
+    ['JSON', jsonIcon],
     ['TailwindCSS', tailwindIcon],
-    ['JavaScript', javascriptIcon],
     ['React.js', reactIcon],
     ['Vite.js', viteIcon],
     ['Next.js', nextjsIcon],
     ['React Native', reactIcon],
-    ['SQL', sqlIcon],
-    ['JSON', jsonIcon],
     ['SQLAlchemy', sqlalchemyIcon],
     ['Flask', flaskIcon],
-    ['Python', pythonIcon],
+    ['Git', gitIcon],
     ['Java', javaIcon],
-    ['C', cIcon],
-    ['Git', gitIcon]
+  ]
 
+  const skillsLearning = [
+    ['C', cIcon],
+    ['C++', cppIcon],
   ]
   return (
     <>
       <h1 className={`${styles.titles}`}>Skills</h1>
       <div className={`${styles.skillCardContainer}`}>
         {
-          skills.map((skill, index) => 
+          skillsKnown.map((skill, index) => 
+            <div key={index} className={`${styles.skillCard}`}>
+              <h3 className={`${styles.skillTitle}`}>{skill[0]}</h3>
+              <Image 
+                src={skill[1]}
+                className={`${styles.skillSVG}`}
+                alt={`${skill[0]} Icon`}
+              />
+            </div>)
+        }
+      </div>
+      <h1 className={`${styles.titles}`}>Learning</h1>
+      <div className={`${styles.skillCardContainer}`}>
+        {
+          skillsLearning.map((skill, index) => 
             <div key={index} className={`${styles.skillCard}`}>
               <h3 className={`${styles.skillTitle}`}>{skill[0]}</h3>
               <Image 
