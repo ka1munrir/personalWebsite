@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
               <Link href={'/projects'}>Projects</Link>
             </div>
             <div className={styles.linkContainer}>
+              <Link href={'/ENGL2210'}>ENGL2210</Link>
+            </div>
+            <div className={styles.linkContainer}>
               <Link href={'/contact'}>Contact</Link>
             </div>
           </nav>
