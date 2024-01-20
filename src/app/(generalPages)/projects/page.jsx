@@ -3,6 +3,8 @@ import styles from './page.module.css'
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <>
+      <h3 className={`${styles.text}`}>In Progress</h3>
+    </>
   )
 }
