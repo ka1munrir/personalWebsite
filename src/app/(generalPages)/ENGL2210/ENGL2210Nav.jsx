@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import styles from './ENGL2210Nav.module.css'
 
-export default function ENGR2210Nav() {
+export default function ENGL2210Nav() {
   const route = useRouter();
   return (
     <nav className={`${styles.nav}`}>
