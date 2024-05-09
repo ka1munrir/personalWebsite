@@ -38,7 +38,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>7. Reviewing and Editing</h2>
             <h3 className={`${styles.slo_desc}`}>Across media and contexts, ensuring final clear style, user-centered writing, and error-free spelling and mechanics.</h3>
-            <p className={`${styles.slo_reflections}`}></p>
+            <p className={`${styles.slo_reflections}`}>This learning outcome is pinpointed by project 2. In project two we had to come up with  a technical description for a product as well as a user manual. Through the user manual, I learned to keep my writing clear and concise to ensure that the steps were easy to follow. Moreover, the manual included images so as to make the instructions more user friendly. Overall, as a document meant for users, it was paramount to write it while taking a user&#39;s needs into account.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>8. Content Management</h2>
