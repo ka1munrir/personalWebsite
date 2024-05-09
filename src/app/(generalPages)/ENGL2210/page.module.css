@@ -1,9 +1,11 @@
 .text {
     color: var(--text);
-    text-align: center;
+    /* text-align: center; */
+    margin: 4em;
 }
 
 .title {
     font-size: 3em;
     margin: 3em 0 1em 0;
+    text-align: center;
 }

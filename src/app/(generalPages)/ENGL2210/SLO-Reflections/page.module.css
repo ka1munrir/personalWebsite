@@ -1,0 +1,13 @@
+.container {
+    margin-top: 4rem;
+}
+
+.slo_desc{
+    opacity: .75;
+    margin: 1em;
+}
+
+.slo_reflections{
+    opacity: .6;
+    margin: 1em;
+}

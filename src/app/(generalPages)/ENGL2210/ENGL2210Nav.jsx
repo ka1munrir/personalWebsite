@@ -17,6 +17,9 @@ export default function ENGL2210Nav() {
       <div onClick={() => route.push(`/ENGL2210/project-3`)} className={`${styles.linkContainer}`}>
         <Link href={`/ENGL2210/project-3`}>Project 3</Link>
       </div>
+      <div onClick={() => route.push(`/ENGL2210/SLO-Reflections`)} className={`${styles.linkContainer}`}>
+        <Link href={`/ENGL2210/project-3`}>SLO Reflections</Link>
+      </div>
     </nav>
   )
 }
