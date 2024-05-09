@@ -43,7 +43,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>8. Content Management</h2>
             <h3 className={`${styles.slo_desc}`}>Gaining knowledge of the organization and management of digital and textual information and receive an introduction to information architecture, web content management, and social networking.</h3>
-            <p className={`${styles.slo_reflections}`}></p>
+            <p className={`${styles.slo_reflections}`}>The project that most encapsulates this learning outcome would be project 1. In project 1, we created a Linkedin profile. From the headline, to the usmmary, experience, education, and skills, everything had to be written out logically and cohesively. It also provided me with a practical introduction to social networking within a professional context.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>9. Production and Delivery</h2>
