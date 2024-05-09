@@ -18,7 +18,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>3. Content Development</h2>
             <h3 className={`${styles.slo_desc}`}>Understanding how genre conventions impact writing. Using contextual information to place specialized information into the appropriate genre.</h3>
-            <p className={`${styles.slo_reflections}`}>Project 2 </p>
+            <p className={`${styles.slo_reflections}`}>Project 2 helped the most in understanding how genre conventions and contextual information impact writing. In project 2, we wrote from both the perspective of a company as well as a customer. Through this, recognizing the nuances of different genres and addressing different audiences I learned how to more effectively engage my indented audience and achieve my goals for the letters.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>4. Organizational Design</h2>
