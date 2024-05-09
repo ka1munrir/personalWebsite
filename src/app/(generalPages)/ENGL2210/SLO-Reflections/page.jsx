@@ -48,7 +48,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>9. Production and Delivery</h2>
             <h3 className={`${styles.slo_desc}`}>Developing skills in presenting information in multiple modes and in various media: web, paper, oral, and video. Applying delivery skills to emerging technologies.</h3>
-            <p className={`${styles.slo_reflections}`}></p>
+            <p className={`${styles.slo_reflections}`}>While preparing for project 3 the new skills I learned mostly centered around recording. I also learned about how to navigate the university libraries. This second skill is of greater importance than the first one. As it is my first year at the University of New Mexico, I was very unfamiliar with everything on campus. By learning how to navigate through the library catalog online, I am now more easily able to access reputable and technical information that I might not otherwise have access to.</p>
           </div>
         </div>
     </>
