@@ -23,7 +23,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>4. Organizational Design</h2>
             <h3 className={`${styles.slo_desc}`}>Practicing strong research skills with primary and secondary sources to generate appropriate content. Generating strong research questions and developing clear research practices.</h3>
-            <p className={`${styles.slo_reflections}`}></p>
+            <p className={`${styles.slo_reflections}`}>Project 3 displays this learning outcome the most as an entire section to prepare for the final product was dedicated to research. By formulating a clear research question I was able to direct my research in a useful and productive direction. While many of my sources were primary sources due to my need for specific information, I used some secondary soures which compiled many primary sources so that I could get a wide range of statistics for many related areas.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>5. Written Communication</h2>
