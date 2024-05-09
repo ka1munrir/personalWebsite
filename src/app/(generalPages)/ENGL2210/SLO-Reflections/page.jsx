@@ -12,7 +12,7 @@ export default function Project_3() {
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>2. Project Analysis</h2>
-            <h3 className={`${styles.slo_desc}`}>Identifying a document’s readers and a document’s context relative to practices of composing for specific global, diverse, and multicultural audiences. Understanding how technical documents occupy and respond to social justice and community service contexts.</h3>
+            <h3 className={`${styles.slo_desc}`}>Identifying a document&#39;s readers and a document&#39;s context relative to practices of composing for specific global, diverse, and multicultural audiences. Understanding how technical documents occupy and respond to social justice and community service contexts.</h3>
             <p className={`${styles.slo_reflections}`}>While this learning outcome relates to all of the projects, it can most clearly be seen in project 1. In project 1, we created a variety of things such as resumes, bios, cover letters, and Linkedin profiles. With this variety of documents, we learned a lot about tailoring our technical documents to a variety of audiences. For example, with resumes, if you were applying to a job in academia, you would want to highlight your education and maybe your research while if you're applying to industry, it would be better to highlight your experience and skills.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
