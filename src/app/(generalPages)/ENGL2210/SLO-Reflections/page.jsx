@@ -28,7 +28,7 @@ export default function Project_3() {
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>5. Written Communication</h2>
             <h3 className={`${styles.slo_desc}`}>Composing clear, stylistically responsible prose that avoids errors and pays attention audience needs.</h3>
-            <p className={`${styles.slo_reflections}`}></p>
+            <p className={`${styles.slo_reflections}`}>Project 1 highlighes this learning outcome with the resume. Resumes are documents with which you have to pay great attention to formating. Recruiters only look at resumes for 6 to 7 seconds so how you present yourself and what information you put where is very important.</p>
           </div>
           <div className={`${styles.slo_containers}`}>
             <h2 className={`${styles.slo_titles}`}>6. Visual Communication</h2>
